@@ -1,0 +1,62 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.Each_item {
+  color: black;
+  font-weight: 500;
+  padding-left: 0%;
+  align-items: left;
+  font-size: medium;
+}
+
+.header {
+  align-items: center;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table,
+.table td,
+.table th {
+  border: 2px solid #e0e0e0;
+  background-color: #fff;
+}
+
+.table td,
+.table th {
+  padding: 12px;
+  text-align: left;
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.checkbox-label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.checkbox-input,
+.todo-input {
+  font-size: 16px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
